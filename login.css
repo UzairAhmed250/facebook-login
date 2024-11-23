@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #f2f4f7;
+    padding: 0;
+    margin: 0;
+}
+
+.fb {
+    align-items: center;
+    display: inline;
+    color: #3578E5;
+    font-weight: bold;
+    /* margin-top: 10px; */
+    font-size: 80px;
+    /* padding: 10px; */
+}
+
+.para {
+    font-weight: 200;
+    color: black;
+    font-size: 25px;
+    /* padding-top: -43px; */
+    /* display: inline-block; */
+}
+
+#userName:focus {
+    border: 1px solid #3578E5;
+}
+
+#password:focus {
+    border: 1px solid #3578E5;
+}
+
+#userName {
+    font-size: medium;
+    height: 50px;
+    border-radius: 5px;
+    width: 85%;
+    /* margin-left: 25px; */
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#password {
+    font-size: medium;
+    height: 50px;
+    border-radius: 5px;
+    width: 85%;
+    /* margin-left: 25px; */
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+
+}
+
+#button {
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+    height: 50px;
+    width: 85%;
+    /* margin-left: 25px; */
+    margin-top: 15px;
+    border-radius: 5px;
+    border: #0866ff;
+    background-color: #3578E5;
+    text-align: center;
+    color: white;
+    outline: none;
+}
+
+#button {
+    background-color: #1877f2;
+}
+
+.forgotten {
+    padding: 12px 10px;
+    color: #0866ff;
+    text-decoration: none;
+    width: 94%;
+}
+
+.line {
+    border-bottom: 1px solid #dadde1;
+    margin: 20px 40px;
+}
+
+#createbutton {
+    cursor: pointer;
+    background-color: #42b72a;
+    font-size: larger;
+    font-weight: bold;
+    height: 45px;
+    width: 50%;
+    /* margin-left: 130px; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: #0866ff;
+    text-align: center;
+    color: white;
+    outline: none;
+
+}
+
+#createbutton:hover {
+    background-color: #36a420;
+    border-color: #36a420;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    gap: 50px;
+    /* align-items: center; */
+    /* height: 150px; */
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    /* border :1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    border-radius: 10px;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.create {
+    width: 100%;
+    position: relative;
+    left: 50%;
+}
+
+#page {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* sign-up page */
+
+.content {
+    text-align: center;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 200px;
+}
+
+#fName {
+    width: 15%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+
+#fName:focus {
+    border: 1px solid #3578E5;
+}
+
+#sName {
+    width: 15%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+#sName:focus {
+    border: 1px solid #3578E5;
+
+}
+
+#mail {
+    position: relative;
+    width: 30.9%;
+    height: 40px;
+    top: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+#mail:focus {
+    border: 1px solid #3578E5;
+}
+
+#newpass {
+    position: relative;
+    width: 30.9%;
+    height: 40px;
+    top: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+}
+
+#newpass:focus {
+    border: 1px solid #3578E5;
+}
+
+#sign {
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+    background-color: #42b72a;
+    font-size: larger;
+    font-weight: bold;
+    height: 40px;
+    width: 180px;
+    /* margin-left: 130px; */
+    /* padding-top: 10px; */
+    /* margin-bottom: 20px; */
+    border-radius: 5px;
+    border: #0866ff;
+    text-align: center;
+    color: white;
+    outline: none;
+}
+
+#sign:hover {
+    background-color: #36a420;
+    border-color: #36a420;
+}
+
+#createbutton a {
+    text-decoration: none;
+    color: white;
+}
